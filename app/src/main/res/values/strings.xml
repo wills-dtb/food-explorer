@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Food Explorer</string>
+    <string name="product_weight">Product_Weight</string>
+    <string name="product_name">Product_Name</string>
 </resources>

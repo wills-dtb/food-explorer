@@ -1,4 +1,4 @@
-package com.ustwo.foodexplorer
+package com.ustwo.foodexplorer.presenter
 
 import android.support.annotation.LayoutRes
 import android.view.LayoutInflater
