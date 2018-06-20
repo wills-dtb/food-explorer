@@ -20,7 +20,11 @@ class Product(code: String) {
     }
 
     fun fetchData() {
-        val url = URL("https://world.openfoodfacts.org/api/v0/product/$code.json")
+        // Mock Server URL
+        val url = URL("https://f7953da6-9465-4252-8f20-813ed3619842.mock.pstmn.io/$code")
+
+        // Production URL
+//        val url = URL("https://world.openfoodfacts.org/api/v0/product/$code.json")
         val json = url.readText()
         val jsonObj = JSONObject(json)
         val productObj = jsonObj.getJSONObject("product")
